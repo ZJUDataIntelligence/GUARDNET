@@ -27,4 +27,4 @@ To run the code
 
 1.  Need to download the processed dataset firstly at  [here](https://pan.baidu.com/s/1KUSiP0-t4knylVRAYDLunA?pwd=07jc).
 2.  cd to *code* : Execute `python graph_construction.py -k_rw=10 -k_khop=2 -k_ego=3 -gamma=0.2 ` to individually generate graph datasets for train.
-3.  cd to *code* : ` python train.py -lr=0.01 -device='cuda' -epochs=100 -graph='ccfraud_graph.bin'` .
+3.  cd to *code* : ` python train.py -lr=0.01 -device='cuda' -epochs=100 -graph='graph/ccfraud_graph.bin'` .
